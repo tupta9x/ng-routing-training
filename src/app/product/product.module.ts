@@ -4,13 +4,15 @@ import { ProductListComponent } from './product-list/product-list.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
 import { Router, RouterModule, Routes } from '@angular/router';
 import { ProductRoutingModule } from './product-routing.module';
+import { ProductComponent } from './product.component';
 
 
 
 @NgModule({
   declarations: [
     ProductListComponent,
-    ProductDetailComponent
+    ProductDetailComponent,
+    ProductComponent
   ],
   imports: [
     CommonModule,
